@@ -2,9 +2,9 @@ import "./About.css";
 
 function About(): JSX.Element {
     return (
-        <div className="About">
-			
-        </div>
+        <section id="about">
+            about
+        </section>
     );
 }
 

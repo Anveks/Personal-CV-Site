@@ -2,9 +2,9 @@ import "./Contact.css";
 
 function Contact(): JSX.Element {
     return (
-        <div className="Contact">
-			
-        </div>
+        <section id="contact">
+            contact
+        </section>
     );
 }
 

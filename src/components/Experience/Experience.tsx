@@ -2,9 +2,9 @@ import "./Experience.css";
 
 function Experience(): JSX.Element {
     return (
-        <div className="Experience">
-			
-        </div>
+        <section id="experience">
+            exp
+        </section>
     );
 }
 

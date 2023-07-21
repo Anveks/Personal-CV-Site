@@ -14,8 +14,7 @@ function Header(): JSX.Element {
                 <Icons />
 
                 <div className="photo">
-                    place your photo here
-                    {/* <img src={photo} alt="profile-pic" /> */}
+                    <img src={photo} alt="profile-pic" />
                 </div>
 
                 <a href="#contact" className="scroll_down">Scroll Down</a>

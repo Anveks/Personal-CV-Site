@@ -2,9 +2,9 @@ import "./Services.css";
 
 function Services(): JSX.Element {
     return (
-        <div className="Services">
-
-        </div>
+        <section id="services">
+            services
+        </section>
     );
 }
 

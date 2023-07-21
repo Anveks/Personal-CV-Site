@@ -12,9 +12,9 @@ header {
 
 /* BUTTONS */
 .action-buttons {
-  /* margin-top: .5rem; */
+  margin-top: 1%;
   display: flex;
-  gap: 1rem;
+  gap: 1.2rem;
   justify-content: center;
 }
 
@@ -41,11 +41,84 @@ header {
 .photo {
   background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
-  height: 30rem;
+  height: 25rem;
   position: absolute;
   left: calc(50% - 11rem);
-  margin-top: 4rem;
+  margin-top: 2rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  padding: 1.5rem 1rem 1rem 1rem;
+}
+
+.photo > img {
+  border-radius: 12rem;
+}
+
+.scroll_down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+/* medium */
+@media screen and (max-width: 1024px) {
+  header {
+    height: 98vh;
+  }
+
+  .header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+  }
+
+  .action-buttons {
+    margin-top: 3%;
+  }
+
+  .photo {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 25rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 2rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+}
+
+/* small */
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+
+  .icons, .scroll_down {
+    display: none;
+  }
+  
+}
+
+/* avg height */
+@media screen and (max-height: 700px){
+  header {
+    padding-top: 1%;
+  }
+
+  .header_container {
+    text-align: center;
+    position: relative;
+  }
+
+  .photo {
+    width: 17rem;
+    height: 17rem;
+    left: calc(50% - 8.5rem);
+    padding: 1rem 1rem 1rem 1rem;
+  }
 }
