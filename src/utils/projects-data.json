@@ -1,0 +1,20 @@
+[
+  {
+  "id": 1,
+  "img": "src/assets/example_1.jpg",
+  "title": "Crypto Currency Tracker Site",
+  "github": "https://github.com/Anveks/JavaScript---JQuery--CryptoCurrency-Project"
+  },
+  {
+  "id": 2,
+  "img": "src/assets/example_2.jpg",
+  "title": "Vacations Planner Site",
+  "github": "https://github.com/Anveks/Vacations-Site-Full-Stack"
+  },
+  {
+  "id": 3,
+  "img": "src/assets/example_3.jpg",
+  "title": "Real-time Chat App Site",
+  "github": "https://github.com/Anveks/Messenger-Full-Stack"
+  }
+]
